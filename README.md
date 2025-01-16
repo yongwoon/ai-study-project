@@ -7,12 +7,20 @@
 ```bash
 brew update
 brew install pyenv
+
+# install python with version (ex: 3.13.1)
+pyenv install 3.13.1
+
+# set python version in local
+pyenv local 3.13.1
+
+pyenv version
 ```
 
 - set venv
 
 ```bash
-python3.11 -m venv myaienv
+python3.13 -m venv myaienv
 ```
 
 - virtual env コマンド
