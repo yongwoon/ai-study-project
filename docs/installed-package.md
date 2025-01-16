@@ -53,6 +53,12 @@ poetry add pdfminer-six=20231228
 poetry add pymupdf4llm
 ```
 
+### visualize and user interface
+
+```bash
+poetry add matplotlib streamlit jupyter notebook
+```
+
 ## install できなかった packages
 
 ```bash

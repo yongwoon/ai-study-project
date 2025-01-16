@@ -47,6 +47,12 @@ pdfplumber = "^0.11.5"
 pdfminer-six = "20231228"
 pymupdf4llm = "^0.0.17"
 
+# visualize and user interface
+matplotlib = "^3.10.0"
+streamlit = "^1.41.1"
+jupyter = "^1.1.1"
+notebook = "^7.3.2"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
