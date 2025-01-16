@@ -28,6 +28,7 @@ langchain-cohere = "^0.3.4"
 langchain-elasticsearch = "^0.3.0"
 langchain-chroma = "^0.2.0"
 langchain-milvus = "^0.1.8"
+langchain-google = "^0.1.1"
 
 
 [build-system]

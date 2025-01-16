@@ -26,8 +26,22 @@ poetry add langchain-elasticsearch langchain-chroma langchain-milvus
 
 # 기타 통합 패키지
 poetry add langchain-google
+```
+
+## install できなかった packages
+
+```bash
+#  Installing torch (2.4.1): Failed
 poetry add langchain-huggingface
+# Downgrading tokenizers (0.21.0 -> 0.19.1): Failed
 poetry add langchain-upstage
+# Installing torch (1.13.1): Failed
 poetry add langchain-teddynote
+```
+
+## ETC
+
+```bash
+# maintain 하지않으므로 install 하지 않음
 poetry add langchainhub
 ```
