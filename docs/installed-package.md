@@ -1,12 +1,14 @@
-# Installed Package
+# Packages
 
-## utilities
+## Installed Packages
+
+### utilities
 
 ```bash
 python-dotenv
 ```
 
-## langchain
+### langchain
 
 ```bash
 # 핵심 패키지 먼저 설치
@@ -26,6 +28,12 @@ poetry add langchain-elasticsearch langchain-chroma langchain-milvus
 
 # 기타 통합 패키지
 poetry add langchain-google
+```
+
+### data process | analysis
+
+```bash
+poetry add pandas rank-bm25
 ```
 
 ## install できなかった packages
