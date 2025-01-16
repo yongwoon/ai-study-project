@@ -31,6 +31,8 @@ openai = "^1.59.7"
 deepl = "^1.21.0"
 kiwipiepy = "^0.20.3"
 konlpy = "^0.6.0"
+pandas = "^2.2.3"
+rank-bm25 = "^0.2.2"
 
 [build-system]
 requires = ["poetry-core"]
