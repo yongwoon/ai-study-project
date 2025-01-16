@@ -59,6 +59,17 @@ poetry add pymupdf4llm
 poetry add matplotlib streamlit jupyter notebook
 ```
 
+### deep learning and machine learning
+
+```bash
+# mac m chip 일 경우, torch install 가 실패 하므로, 아래 명령어 실행하여 설치
+pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu
+
+poetry add torchvision
+poetry add faiss-cpu
+poetry add open-clip-torch
+```
+
 ## install できなかった packages
 
 ```bash
