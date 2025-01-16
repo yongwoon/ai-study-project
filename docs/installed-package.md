@@ -36,6 +36,13 @@ poetry add langchain-google
 poetry add pandas rank-bm25
 ```
 
+### database | cache
+
+```bash
+poetry add redis
+poetry add chromadb==0.5.23
+```
+
 ## install できなかった packages
 
 ```bash
