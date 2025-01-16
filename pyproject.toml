@@ -11,6 +11,9 @@ python = "^3.11"
 # Required Package
 python-dotenv = "^1.0.1"
 
+# Langchain for llm
+langchain = "^0.3.14"
+
 
 [build-system]
 requires = ["poetry-core"]

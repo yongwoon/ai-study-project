@@ -1,6 +1,6 @@
 # Getting Start
 
-### Use virtual env
+## Use virtual env
 
 - Install pyenv
 
@@ -25,14 +25,24 @@ source myaienv/bin/activate
 deactivate
 ```
 
-- Install poetry (virtual env 가 activated 된 상태에서 진행하기)
+## Poetry Command
 
 ```bash
-pip3 install poetry
+# Add package
+poetry install
 
-# 파이썬 가상환경 설정
-poetry shell
-
-# 파이썬 패키지 일괄 업데이트
+# update package
 poetry update
+
+# check current env
+poetry env info
+
+# Add package
+poetry add <package_name>
+
+# Add package with version
+poetry add <package_name>==<version>
+
+# Add package with version
+poetry add <package_name>==<version>
 ```
