@@ -30,17 +30,27 @@ poetry add langchain-elasticsearch langchain-chroma langchain-milvus
 poetry add langchain-google
 ```
 
-### data process | analysis
+### data process and analysis
 
 ```bash
 poetry add pandas rank-bm25
 ```
 
-### database | cache
+### database and cache
 
 ```bash
 poetry add redis
 poetry add chromadb==0.5.23
+```
+
+### pdf and file process
+
+```bash
+poetry add pymupdf
+poetry add pypdf
+poetry add pdfplumber
+poetry add pdfminer-six=20231228
+poetry add pymupdf4llm
 ```
 
 ## install できなかった packages
