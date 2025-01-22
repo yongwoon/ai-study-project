@@ -12,6 +12,12 @@ python = ">=3.11.6,<3.12"
 # Required Package
 python-dotenv = "^1.0.1"
 
+# LLM Provider
+openai = "^1.59.7"
+deepl = "^1.21.0"
+kiwipiepy = "^0.20.3"
+konlpy = "^0.6.0"
+
 # Langchain for llm
 langchain = "^0.3.14"
 langchain-core = "^0.3.29"
@@ -25,12 +31,9 @@ langchain-elasticsearch = "^0.3.0"
 langchain-chroma = "^0.2.0"
 langchain-milvus = "^0.1.8"
 langchain-google = "^0.1.1"
-
-# LLM Provider
-openai = "^1.59.7"
-deepl = "^1.21.0"
-kiwipiepy = "^0.20.3"
-konlpy = "^0.6.0"
+langchain-huggingface = "^0.1.2"
+langchain-teddynote = "^0.3.41"
+langchain-upstage = "^0.6.0"
 
 # data process and analysis
 pandas = "^2.2.3"
@@ -42,7 +45,7 @@ chromadb = "0.5.23"
 
 # pdf and file process
 pymupdf = "^1.25.1"
-pypdf = "^5.1.0"
+pypdf = "^4.3.1" # langchain-upstage の dependency
 pdfplumber = "^0.11.5"
 pdfminer-six = "20231228"
 pymupdf4llm = "^0.0.17"
