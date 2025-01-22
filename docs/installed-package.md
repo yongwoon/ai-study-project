@@ -65,9 +65,27 @@ poetry add matplotlib streamlit jupyter notebook
 poetry add torch torchvision faiss-cpu open-clip-torch
 ```
 
+### Utils
+
+```bash
+poetry add python-dotenv pydantic lxml pillow lark ragas
+poetry add "unstructured[all-docs]"
+poetry add arxiv tiktoken tenacity pymilvus google-search-results protobuf sqlalchemy llama-index-core llama-parse  flashrank docx2txt nest-asyncio rapidocr-onnxruntime seaborn grandalf rouge-score langchain-ollama mypy pinecone wikipedia scikit-learn
+```
+
 ## ETC
 
 ```bash
 # maintain 하지않으므로 install 하지 않음
 poetry add langchainhub
+```
+
+## install 하지 않은 패키지
+
+```bash
+# langchain-teddynote 의 코드를 사용하지 않고 코드를 작성할 예정이므로 install 하지 않음
+poetry add langchain-teddynote
+# depends on both pypdf (>=4.3.1,<5.0.0) 문제도 일단 무시
+poetry add llama-index-readers-file
+
 ```
