@@ -8,13 +8,13 @@
 brew update
 brew install pyenv
 
-# install python with version (ex: 3.13.1)
-pyenv install 3.13.1
+# install python with version (ex: 3.11.7)
+pyenv install 3.11.7
 
 # set python version in local
-pyenv local 3.13.1
+pyenv local 3.11.7
 
-pyenv version
+pyenv versions
 ```
 
 - set venv
