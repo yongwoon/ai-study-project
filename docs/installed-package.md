@@ -11,14 +11,14 @@ python-dotenv
 ### langchain
 
 ```bash
+# LLM 제공자 관련 패키지
+poetry add huggingface-hub openai deepl kiwipiepy konlpy
+
 # 핵심 패키지 먼저 설치
 poetry add langchain langchain-core
 
 # 기본 확장 패키지
 poetry add langchain-experimental langchain-community
-
-# LLM 제공자 관련 패키지
-poetry add huggingface-hub openai deepl kiwipiepy konlpy
 
 # LLM 제공자 관련 langchain 패키지
 poetry add langchain-openai langchain-anthropic langchain-cohere
@@ -27,7 +27,7 @@ poetry add langchain-openai langchain-anthropic langchain-cohere
 poetry add langchain-elasticsearch langchain-chroma langchain-milvus
 
 # 기타 통합 패키지
-poetry add langchain-google
+poetry add langchain-google langchain-huggingface langchain-upstage langchain-teddynote
 ```
 
 ### data process and analysis
@@ -62,23 +62,7 @@ poetry add matplotlib streamlit jupyter notebook
 ### deep learning and machine learning
 
 ```bash
-# mac m chip 일 경우, torch install 가 실패 하므로, 아래 명령어 실행하여 설치
-pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu
-
-poetry add torchvision
-poetry add faiss-cpu
-poetry add open-clip-torch
-```
-
-## install できなかった packages
-
-```bash
-#  Installing torch (2.4.1): Failed
-poetry add langchain-huggingface
-# Downgrading tokenizers (0.21.0 -> 0.19.1): Failed
-poetry add langchain-upstage
-# Installing torch (1.13.1): Failed
-poetry add langchain-teddynote
+poetry add torch torchvision faiss-cpu open-clip-torch
 ```
 
 ## ETC
