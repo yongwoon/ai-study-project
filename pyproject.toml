@@ -7,8 +7,7 @@ readme = "README.md"
 package-mode = false  # run as script mode
 
 [tool.poetry.dependencies]
-python = "^3.11"
-# torch = "^2.5.1" # mac m chip 일 경우, torch install 가 실패하므로, pip 로 설치
+python = "^3.13.1"
 
 # Required Package
 python-dotenv = "^1.0.1"
