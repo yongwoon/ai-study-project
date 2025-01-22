@@ -65,9 +65,25 @@ poetry add matplotlib streamlit jupyter notebook
 poetry add torch torchvision faiss-cpu open-clip-torch
 ```
 
+### Utils
+
+```bash
+poetry add python-dotenv pydantic lxml pillow lark ragas
+poetry add "unstructured[all-docs]"
+poetry add arxiv tiktoken tenacity pymilvus google-search-results protobuf sqlalchemy llama-index-core llama-parse  flashrank docx2txt nest-asyncio rapidocr-onnxruntime seaborn grandalf rouge-score langchain-ollama mypy pinecone wikipedia scikit-learn
+```
+
 ## ETC
 
 ```bash
 # maintain 하지않으므로 install 하지 않음
 poetry add langchainhub
+```
+
+## install 하지 않은 패키지
+
+```bash
+poetry add langchain-teddynote
+poetry add llama-index-readers-file
+
 ```
