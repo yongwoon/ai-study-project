@@ -7,7 +7,7 @@ readme = "README.md"
 package-mode = false  # run as script mode
 
 [tool.poetry.dependencies]
-python = "^3.11.6"
+python = ">=3.11.6,<3.12"
 
 # Required Package
 python-dotenv = "^1.0.1"
@@ -54,6 +54,10 @@ jupyter = "^1.1.1"
 notebook = "^7.3.2"
 
 # deep learning and machine learning
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+faiss-cpu = "^1.9.0.post1"
+open-clip-torch = "^2.30.0"
 
 
 [build-system]
