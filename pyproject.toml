@@ -7,7 +7,7 @@ readme = "README.md"
 package-mode = false  # run as script mode
 
 [tool.poetry.dependencies]
-python = "^3.11.7"
+python = "^3.11.6"
 
 # Required Package
 python-dotenv = "^1.0.1"
