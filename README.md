@@ -51,3 +51,8 @@ streamlit run main.py
   - Tips
     - `rlm/xxx` rlm 은 langchain 에서 제공하는 모델 이름
     - rlm 이 붙은건 평균적은 prompt 보단 `rlm` 이 붙지 않은 우선 순위의 prompt 를 사용하는 것도 좋은 선택이다.
+
+### Others
+
+- [unstructured](https://unstructured.io)
+  - unstructured 라이브러리는 비정형 데이터(PDF, 이미지, HTML 등)를 구조화된 형식으로 변환하는 라이브러리입니다.
